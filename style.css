@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* hero section */
+#hero-section{
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url(images/donation1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heroText-container{
+    margin: 120px;
+    width: 60%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.heroText-container h1{
+    margin: 0;
+    /* padding: 150px 0 20px 0; */
+    font-size: 50px;
+    color: #ffffff;
+
+}
+.heroText-container p{
+    color: #ffffffb7;
+    font-weight: 100;
+}
+.donate-button{
+    margin: 20px 0;
+    padding: 10px 20px 10px 20px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor:pointer
+}
+
+/* donate-section */
+#donate-section {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.donation-container{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    text-align: center;
+    width: 60%;
+}
+.donation-container h1{
+    font-size: 60px;
+    color: #121212;
+    margin: 0 0 10px 0;
+}
+.donation-container p{
+    /* font-size: 60px; */
+    color: #707070;
+    margin: 0 0 20px 0;
+}
+.donationAmount-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donationAmount-card{
+    margin: 50px 0 50px 0;
+    display: flex;
+}
+.donationAmount-card div{
+    /* border: 1px solid red; */
+    /* padding: 30px 8px; */
+    width: 126px;
+    height: 113px;
+    font-size:30px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;
+    font-weight: bold;
+    cursor: pointer;
+}
+.highlight-amount{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+}
+
+.amountInput-filde{
+    width: 100%;
+    height: 50px;
+    margin: 0 0 20px 0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+.amountInput-filde::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* donatePlan-section */
+#donationPlan-section {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.donationPlan-container{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    text-align: center;
+    width: 90%;
+    
+}
+.donationPlan-mainText{
+    width: 60%;
+    margin: auto;
+}
+
+.donationPlan-container h1{
+    font-size: 60px;
+    color: #121212;
+    margin: 0 0 10px 0;
+}
+.donationPlan-container p{
+    color: #707070;
+    margin: 0 0 20px 0;
+}
+
+.donationPlan-cards{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.planCard{
+ width: 320px;
+ height: 280px;  
+ text-align: left;
+ padding: 50px 20px 10px 20px;
+}
+.card1{background-color: #4f9da61a;}
+.card2{background-color: #ff595928;}
+.card3{background-color: #fff4d6;}
+
+
+
+/* motivation area */
+.motivation-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.motivationCards-container{
+    width: 80%;
+    margin: auto;
+}
+.motivation-card{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 20px 0 40px 0;
+}
+.motivationCard-textArea{
+    width: 60%;
+    padding: 10px 80px 0 10px;
+}
+.motivation-card-1{padding: 10px 80px 0 10px;}
+.motivation-card-2{padding: 10px 10px 0 80px;}
+
+.motivationCard-textArea h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+.motivationCard-imageArea{
+    width: 40%;
+}
+.motivation-image{
+    width: 400px;
+    /* margin: auto; */
+    /* border: 1px solid red; */
+}
+.motivation-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* donors-section */
+#donors-section {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.donors-container{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    text-align: center;
+    width: 90%;   
+}
+.donors-container h1{
+    font-size: 60px;
+    color: #121212;
+    margin: 0 0 10px 0;
+}
+
+.donors-cards{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.donors-cards img {
+    width: 200px;
+    height: 100px;
+}
+
+
+ /* donors-section  */
+#newsletters-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.newsletters-container{
+    margin-top: 50px;
+    text-align: center;
+    width: 90%;   
+}
+.newsletters-mainText{
+    width: 60%;
+    margin: auto;
+}
+.newsletters-container h1{
+    font-size: 60px;
+    color: #121212;
+    margin: 0 0 10px 0;
+}
+.newsletters-container p{
+    color: #707070;
+    margin: 0 0 20px 0;
+}
+.newslettersInput-container{
+    width: 60%;
+    margin: 60px auto;
+    padding: 80px 0;
+    background-color: #FFF4D6;
+}
+.input-container{
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.input-container input{
+   width: 100%;
+   height: 100%;
+   background-color: #D9D9D9;
+   outline: none;
+    border: none;
+    padding: 0 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.input-container .submit-button{
+    width: 150px;
+    height: 100%;
+    padding: 13px 20px;
+    outline: none;
+    border: none;
+    background-color: #FF5959;
+    color: #ffffff;
+    font-weight: 700;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* footer */
+footer{
+    background-color: #0B0D17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container p{
+    color: #fff;
+}
+
+.footer-container img{
+    display: flex;
+}
