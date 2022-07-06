@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /* hero section */
 #hero-section{
